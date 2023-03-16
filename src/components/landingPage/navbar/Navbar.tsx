@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import { FC } from "react";
 
 const Navbar: FC = () => {
@@ -33,13 +34,13 @@ const Navbar: FC = () => {
           <li className="cursor-pointer">Service</li>
           <li className="cursor-pointer">About</li>
           <li className="cursor-pointer">
-            <button
+            <Button
               type="button"
+              className="rounded-3xl bg-white text-dark-blue"
               role="button"
-              className="w-32 h-10 rounded-3xl bg-white text-dark-blue font-bold"
             >
               Login
-            </button>
+            </Button>
           </li>
         </ul>
       </div>

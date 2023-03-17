@@ -2,6 +2,17 @@ import Button from "@/components/Button";
 import { FC } from "react";
 
 const Navbar: FC = () => {
+  const menuItems = ["Product", "Service", "About"];
+
+  const displayMenuItems = menuItems.map((item: string) => (
+    <li
+      key={item}
+      className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+    >
+      {item}
+    </li>
+  ));
+
   return (
     <div className="flex text-white justify-between w-full pt-3">
       {/* Logo */}
@@ -30,9 +41,7 @@ const Navbar: FC = () => {
       {/* Nav list */}
       <div className="">
         <ul className="flex items-center sm:space-x-10 font-openSans font-semibold">
-          <li className="cursor-pointer">Product</li>
-          <li className="cursor-pointer">Service</li>
-          <li className="cursor-pointer">About</li>
+          {displayMenuItems}
           <li className="cursor-pointer">
             <Button
               type="button"

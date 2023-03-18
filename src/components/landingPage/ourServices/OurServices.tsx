@@ -41,7 +41,7 @@ const OurServices = () => {
   ));
 
   return (
-    <div className="py-20">
+    <div className="pt-20">
       <h3 className="font-openSans text-xl text-center text-gray">
         Our Services
       </h3>
@@ -49,7 +49,7 @@ const OurServices = () => {
         Handshake infographic mass market crowdfunding iteration.
       </p>
 
-      <section className="flex justify-evenly mt-[78px]">
+      <section className="flex justify-between mt-[78px]">
         {featuresDesc}
       </section>
     </div>

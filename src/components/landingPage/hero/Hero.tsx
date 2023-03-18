@@ -5,8 +5,8 @@ import Navbar from "../navbar/Navbar";
 
 const Hero: FC = () => {
   return (
-    <div className="bg-dark-blue min-h-screen w-screen relative">
-      <div className="absolute flex justify-end right-0 ml-0 w-screen overflow-hidden">
+    <div className="bg-dark-blue min-h-[798px] w-screen ">
+      <div className="absolute flex justify-end right-0 ml-0 w-screen">
         <svg
           width="623"
           height="504"

@@ -102,7 +102,7 @@ const StartNow: FC = () => {
           </h3>
 
           <ul className="font-openSans text-xl space-y-7 ">
-            <li className="flex items-center space-x-3 bg-dark-blue text-white py-4 px-7 rounded ">
+            <li className="flex items-center space-x-3 bg-dark-blue text-white py-4 px-7 rounded shadow-lg ">
               <span>
                 <svg
                   width="28"
@@ -137,7 +137,7 @@ const StartNow: FC = () => {
               <span>We connect our customers with the best.</span>
             </li>
 
-            <li className="flex items-center space-x-3 text-dark-blue py-4 px-7 rounded">
+            <li className="flex items-center space-x-3 text-dark-blue py-4 px-7 rounded shadow-lg">
               <span>
                 <svg
                   width="28"
@@ -177,7 +177,7 @@ const StartNow: FC = () => {
               <span>Advisor success customer launch party.</span>
             </li>
 
-            <li className="flex items-center space-x-3 text-dark-blue py-4 px-7 rounded drop-shadow-[box-shadow: 0px_4px_32px_rgba(0,0,0,0.08)] ">
+            <li className="flex items-center space-x-3 text-dark-blue py-4 px-7 rounded shadow-lg">
               <span>
                 <svg
                   width="24"
@@ -251,11 +251,11 @@ const StartNow: FC = () => {
                       strokeLinejoin="round"
                     />
                   </g>
-                  <defs>
+                  <div>
                     <clipPath id="clip0_62_578">
                       <rect width="24" height="24" fill="white" />
                     </clipPath>
-                  </defs>
+                  </div>
                 </svg>
               </span>
               <span>Business-to-consumer long tail.</span>

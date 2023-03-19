@@ -4,6 +4,7 @@ import StartNow from "@/components/landingPage/startNow/StartNow";
 import Reviews from "@/components/landingPage/reviews/Reviews";
 import Connect from "@/components/landingPage/connect/Connect";
 import OurBlog from "@/components/landingPage/ourBlog/ourBlog";
+import Subscribe from "@/components/landingPage/subscribe/Subscribe";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Connect />
         <OurBlog />
       </div>
+      <Subscribe />
     </div>
   );
 }

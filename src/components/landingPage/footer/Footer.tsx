@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Footer: FC = () => {
   return (
-    <footer className="flex space-x-44 mt-[84px] p-[100px] font-openSans">
+    <footer className="lg:flex justify-start lg:justify-between space-y-16  mt-12 lg:mt-[84px] p-10 lg:p-[100px] font-openSans">
       <div className="max-w-[300px]">
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-nowrap w-max items-center mr-3">
           <span>
             <Image
               src="/assets/landingPage/footer/footer_logo.svg"
@@ -19,12 +19,12 @@ const Footer: FC = () => {
           </span>
         </div>
 
-        <div className="text-gray text-base leading-7 mt-[60px]">
+        <div className="text-gray text-base leading-7 mt-11 lg:mt-[60px]">
           <p>
             Social media validation business model canvas graphical user
             interface launch party creative facebook iPad twitter.
           </p>
-          <p className="mt-16">All rights reserved.</p>
+          <p className="mt-8 lg:mt-16">All rights reserved.</p>
         </div>
       </div>
 

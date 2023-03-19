@@ -46,24 +46,9 @@ const Navbar: FC = () => {
         <div className="flex justify-center items-center">
           <div
             className="relative md:hidden hover:cursor-pointer flex justify-center items-center "
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => setIsMenuOpen(true)}
           >
-            {isMenuOpen ? (
-              // Close Icon *
-              <>
-                <div className="">
-                  <svg
-                    className="fill-white"
-                    width="50px"
-                    height="50px"
-                    viewBox="0 0 1024 1024"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z" />
-                  </svg>
-                </div>
-              </>
-            ) : (
+            {!isMenuOpen && (
               // Hambuger Icon
               <div>
                 <svg
@@ -99,16 +84,31 @@ const Navbar: FC = () => {
           </ul>
         </div>
       </div>
-      {/* {isMenuOpen && ( */}
+
+      {/* Mobile Menu */}
       <div
         className={clsx(
           isMenuOpen
-            ? "h-screen md:hidden float-left w-screen clear-both absolute left-0"
+            ? "h-screen w-screen block  md:hidden float-left clear-both fixed top-0 left-0 "
             : "h-0 w-0 overflow-hidden",
           "transition-all ease-in-out duration-500"
         )}
       >
-        <ul className="bg-dark-blue py-14 space-y-12 text-center text-white font-light text-2xl font-openSans h-screen">
+        <ul className="bg-dark-blue pt-5 py-14 space-y-12 text-center text-white font-light text-2xl font-openSans h-screen">
+          <li
+            className="text-right flex justify-end hover:cursor-pointer"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <svg
+              className="fill-white"
+              width="50px"
+              height="50px"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z" />
+            </svg>
+          </li>
           {displayMenuItems}
           <li className="cursor-pointer">
             <Button

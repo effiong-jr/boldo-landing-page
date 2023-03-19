@@ -16,7 +16,7 @@ export default function Home() {
         <StartNow />
       </div>
       <Reviews />
-      <div className="px-[150px]">
+      <div className="px-6 lg:px-[150px]">
         <Connect />
         <OurBlog />
       </div>

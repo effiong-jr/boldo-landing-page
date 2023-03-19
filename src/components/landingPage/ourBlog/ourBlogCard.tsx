@@ -17,7 +17,7 @@ const OurBlogCard: FC<OurBlogCardProps> = ({
   primaryImageURL,
 }) => {
   return (
-    <div className="flex items-stretch flex-col font-openSans w-[300px] justify-between">
+    <div className="flex items-stretch flex-col font-openSans mb-14 lg:mb-0 w-[300px] justify-between">
       <div>
         <div className="h-52 rounded-xl overflow-clip">
           <Image

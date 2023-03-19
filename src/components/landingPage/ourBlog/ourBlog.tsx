@@ -19,16 +19,18 @@ const OurBlog: FC = () => {
   );
 
   return (
-    <div className="pt-[156px]">
-      <div className="text-center w-[842px] mx-auto">
+    <div className="pt-20 lg:pt-[156px]">
+      <div className="text-center lg:w-[842px] mx-auto">
         <h3 className="text-xl text-gray font-openSans">Our Blog</h3>
-        <p className="text-5xl mt-2 leading-[72px]">
+        <p className="text-3xl lg:text-5xl mt-2 leading-10 lg:leading-[72px]">
           Value proposition accelerator product management venture
         </p>
       </div>
 
-      <div className="mt-[77px] flex justify-between">{displayBlogCards}</div>
-      <div className="mt-[100px] text-center">
+      <div className="mt-[77px] sm:space-x-6 flex flex-wrap justify-center lg:justify-between">
+        {displayBlogCards}
+      </div>
+      <div className="mt-12 lg:mt-[100px] text-center">
         <Button className="text-dark-blue text-sm font-bold border-2 border-dark-blue rounded-[56px]">
           Load more
         </Button>

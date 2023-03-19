@@ -9,7 +9,10 @@ const OurServices = () => {
   ];
 
   const featuresDesc = featureImageURL.map((featureImageURL: string) => (
-    <div className="w-[300px]" key={featureImageURL}>
+    <div
+      className="w-[300px] mb-11 lg:mb-0 mx-auto md:mx-2"
+      key={featureImageURL}
+    >
       <div>
         <Image
           src={featureImageURL}
@@ -24,7 +27,7 @@ const OurServices = () => {
           Learning curve network effects return on investment.
         </p>
       </div>
-      <div className="mt-7">
+      <div className="mt-4 lg:mt-7">
         <Button className="px-0 py-0 font-bold text-xl flex pb-2 items-center border-b-2 border-b-dark-blue rounded-none">
           <span className="mr-4">Explore page</span>
           <span>
@@ -45,11 +48,11 @@ const OurServices = () => {
       <h3 className="font-openSans text-xl text-center text-gray">
         Our Services
       </h3>
-      <p className="text-5xl w-[842px] text-center mx-auto mt-3 leading-[72px]">
+      <p className="text-3xl lg:text-5xl lg:w-[842px] text-center mx-auto mt-3 leading-[50px] lg:leading-[72px]">
         Handshake infographic mass market crowdfunding iteration.
       </p>
 
-      <section className="flex justify-between mt-[78px]">
+      <section className="flex flex-wrap justify-between items-center mt-[78px]">
         {featuresDesc}
       </section>
     </div>

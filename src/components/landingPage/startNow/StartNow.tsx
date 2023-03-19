@@ -34,30 +34,30 @@ const StartNow: FC = () => {
   ));
   return (
     <div className="pb-[120px]">
-      <div className="lg:flex lg:flex-nowrap sm:flex-wrap justify-between mt-52">
-        <div className="relative  container">
-          <div className="absolute w-max">
+      <div className="block lg:flex justify-between mt-10 lg:mt-52">
+        <div className="relative container">
+          <div className=" top-0">
             <Image
-              className=""
+              className="object-contain "
               src="/assets/landingPage/start_now_image_1.svg"
               alt="start now"
               height={506}
               width={494}
             />
           </div>
-          <div className="absolute z-10 w-max left-[186px] top-[222px] ">
+          <div className="absolute z-10 left-[186px] top-[222px] ">
             <Image
-              className=""
+              className="object-contain "
               src="/assets/landingPage/start_now_image_2.svg"
               alt="start now graph"
               height={388}
               width={256}
-              style={{ width: "auto", height: "auto" }}
+              // style={{ width: "auto", height: "auto" }}
             />
           </div>
         </div>
-        <div>
-          <h3 className="w-[493px] text-4xl leading-[56px] mb-10">
+        <div className="mt-24 lg:mt-0 ">
+          <h3 className=" lg:w-[493px] text-3xl lg:text-4xl leading-10 lg:leading-[56px] mb-10">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>
@@ -73,12 +73,11 @@ const StartNow: FC = () => {
       </div>
 
       {/* Connect Section */}
-      <div className="flex flex-nowrap justify-end  items-center mt-[244px] ">
+      <div className="lg:flex lg:flex-nowrap justify-end  items-center mt-32 lg:mt-[244px] ">
         <div className="w-full flex flex-col items-end h-max order-2">
           <div>
-            <div className="w-max">
+            <div className="">
               <Image
-                className="w-full"
                 src="/assets/landingPage/start_now_image_3.svg"
                 alt="start now"
                 height={506}
@@ -87,7 +86,6 @@ const StartNow: FC = () => {
             </div>
             <div className="ml-7 -mt-[50%] z-10 w-fit p-0  ">
               <Image
-                className="w-full"
                 src="/assets/landingPage/start_now_image_4.svg"
                 alt="start now graph"
                 height={388}
@@ -98,7 +96,7 @@ const StartNow: FC = () => {
         </div>
 
         <div className="">
-          <h3 className="w-[493px] text-4xl leading-[56px] mb-10 order-1">
+          <h3 className="lg:w-[493px] text-3xl lg:text-4xl leading-10 lg:leading-[56px] mb-10 order-1">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>

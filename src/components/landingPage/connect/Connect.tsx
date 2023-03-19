@@ -3,21 +3,20 @@ import Image from "next/image";
 
 const Connect: FC = () => {
   return (
-    <div className=" pt-[124px]">
+    <div className="pt-11 lg:pt-[124px]">
       <div className="mx-auto flex justify-center">
         <Image
-          className="object-cover"
+          className="object-cover w-full"
           src="/assets/landingPage/connectSection/workspace_image.svg"
           alt="workspace image"
           height={403}
           width={1100}
-          style={{ width: "100%" }}
         />
       </div>
 
-      <div className="mt-14 flex justify-between font-openSans text-xl">
-        <div>
-          <p className="w-[500px] leading-[56px] text-4xl">
+      <div className="mt-14 lg:flex justify-between font-openSans text-lg lg:text-xl">
+        <div className="mb-10">
+          <p className="lg:w-[500px] leading-9 lg:leading-[56px] text-3xl lg:text-4xl">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </p>
@@ -25,7 +24,7 @@ const Connect: FC = () => {
 
         <div>
           <ul className="space-y-10">
-            <li className="flex justify-between w-[500px] pb-5 border-b border-b-light-grey hover:cursor-pointer">
+            <li className="flex justify-between items-center lg:w-[500px] pb-5 border-b border-b-light-grey hover:cursor-pointer">
               <div>We connect our customers with the best?</div>
               <div className="flex justify-center items-center rounded-full h-7 w-7 bg-dark-blue">
                 <svg
@@ -46,7 +45,7 @@ const Connect: FC = () => {
               </div>
             </li>
 
-            <li className="flex justify-between w-[500px] pb-5 border-b border-b-light-grey hover:cursor-pointer">
+            <li className="flex justify-between lg:w-[500px] pb-5 border-b border-b-light-grey hover:cursor-pointer">
               <div>Android research & development rockstar? </div>
               <div className="flex justify-center items-center rounded-full h-7 w-7 bg-dark-blue">
                 <svg

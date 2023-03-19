@@ -5,10 +5,11 @@ import Reviews from "@/components/landingPage/reviews/Reviews";
 import Connect from "@/components/landingPage/connect/Connect";
 import OurBlog from "@/components/landingPage/ourBlog/ourBlog";
 import Subscribe from "@/components/landingPage/subscribe/Subscribe";
+import Footer from "@/components/landingPage/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="overflow-clip max-w-screen-2xl flex flex-col mx-auto relative pb-14">
+    <div className="overflow-clip max-w-screen-2xl flex flex-col mx-auto relative">
       <Hero />
       <div className="px-[156px]">
         <OurServices />
@@ -20,6 +21,7 @@ export default function Home() {
         <OurBlog />
       </div>
       <Subscribe />
+      <Footer />
     </div>
   );
 }

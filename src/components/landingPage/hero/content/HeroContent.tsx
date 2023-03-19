@@ -6,16 +6,16 @@ import HeroImage3 from "./HeroImage3";
 
 const HeroContent: FC = () => {
   return (
-    <section className="flex justify-between items-center mt-[73px]">
-      <div className="max-w-[567px]">
-        <h1 className="text-5xl text-white leading-[72px] font-thin mb-4">
+    <section className="block lg:flex lg:justify-between lg:items-center mt-[73px]">
+      <div className="max-w-[567px] text-center lg:text-left mx-auto lg:ml-0 space-y-20 lg:space-y-10">
+        <h1 className="text-3xl lg:text-5xl text-white leading-[60px] lg:leading-[72px] font-thin mb-4">
           Save time by building fast with Boldo Template
         </h1>
         <p className="font-openSans text-base text-light-grey font-thin leading-7">
           Funding handshake buyer business-to-business metrics iPad partnership.
           First mover advantage innovator success deployment non-disclosure.
         </p>
-        <div className="mt-10 space-x-5">
+        <div className="mt-10 space-y-10 sm:space-x-5 md:space-y-5">
           <Button className="bg-green rounded-[56px]">Buy template</Button>
           <Button className="rounded-[56px] border border-white text-white ">
             Explore
@@ -23,7 +23,7 @@ const HeroContent: FC = () => {
         </div>
       </div>
 
-      <div>
+      <div className="hidden lg:block">
         <div className="max-w-[493.80px]">
           <div className="mb-6">
             <HeroImage1 />

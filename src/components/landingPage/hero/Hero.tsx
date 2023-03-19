@@ -18,7 +18,7 @@ const Hero: FC = () => {
         </svg>
       </div>
 
-      <div className="absolute px-[100px] py-7 w-full">
+      <div className="absolute px-5 md:px-[100px] py-7 w-full">
         <Navbar />
         <HeroContent />
         <div className="mt-14 flex justify-center pt-8">

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="overflow-clip max-w-screen-2xl flex flex-col mx-auto relative">
       <Hero />
-      <div className="px-[156px]">
+      <div className="px-4 md:px-[156px]">
         <OurServices />
         <StartNow />
       </div>

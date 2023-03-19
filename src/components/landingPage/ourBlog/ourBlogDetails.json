@@ -1,0 +1,27 @@
+[
+    {
+        "primaryImageURL": "/assets/landingPage/ourBlog/primary_image_blog_1.svg",
+        "category": "November 22, 2021",
+        "description": "Pitch termsheet backing validation focus release.",
+        "imageURL": "/assets/landingPage/ourBlog/writer_image_1.svg",
+        "name": "Chandler Bing"
+
+    },
+    {
+        "primaryImageURL": "/assets/landingPage/ourBlog/primary_image_blog_2.svg",
+        "category": "November 22, 2021",
+        "description": "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
+        "imageURL": "/assets/landingPage/ourBlog/writer_image_2.svg",
+        "name": "Rachel Green"
+
+    },
+    {
+        "primaryImageURL": "/assets/landingPage/ourBlog/primary_image_blog_3.svg",
+        "category": "November 22, 2021",
+        "description": "Beta prototype sales iPad gen-z marketing network effects value proposition",
+        "imageURL": "/assets/landingPage/ourBlog/writer_image_3.svg",
+        "name": "Monica Geller"
+
+    }
+
+]

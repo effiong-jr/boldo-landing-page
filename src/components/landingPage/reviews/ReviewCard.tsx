@@ -15,7 +15,7 @@ const ReviewCard: FC<ReviewCardProps> = ({
   imageName,
 }) => {
   return (
-    <div className="w-[350px] h-auto rounded-xl p-10 bg-white font-openSans h-max">
+    <div className="w-[350px] rounded-xl p-10 bg-white font-openSans h-max">
       <p className="text-2xl leading-9 text-black">{`"${reviewText}"`}</p>
 
       <div className="mt-10 flex items-center">

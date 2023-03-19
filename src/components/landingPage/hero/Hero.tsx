@@ -1,6 +1,6 @@
 import { FC } from "react";
-import HeroContent from "../content/HeroContent";
-import HeroImageFooterLogos from "../content/HeroImageFooterLogos";
+import HeroContent from "./content/HeroContent";
+import HeroImageFooterLogos from "./content/HeroImageFooterLogos";
 import Navbar from "../navbar/Navbar";
 
 const Hero: FC = () => {

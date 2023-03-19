@@ -23,7 +23,7 @@ const Reviews: FC = () => {
         </h3>
 
         <div className="flex space-x-6">
-          <div className="w-[72px] h-[72px] rounded-full bg-white text-dark-blue flex justify-items-center items-center ">
+          <div className="w-[72px] h-[72px] rounded-full bg-white text-dark-blue flex justify-center items-center hover:cursor-pointer ">
             <Image
               className="mx-auto"
               src="/assets/icons/arrow-left.svg"
@@ -32,7 +32,7 @@ const Reviews: FC = () => {
               height={39}
             />
           </div>
-          <div className="w-[72px] h-[72px] rounded-full bg-white text-dark-blue flex justify-items-center items-center ">
+          <div className="w-[72px] h-[72px] rounded-full bg-white text-dark-blue flex justify-center items-center hover:cursor-pointer ">
             <Image
               className="mx-auto"
               src="/assets/icons/arrow-right.svg"

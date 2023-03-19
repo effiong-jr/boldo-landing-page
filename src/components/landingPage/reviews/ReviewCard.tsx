@@ -15,10 +15,10 @@ const ReviewCard: FC<ReviewCardProps> = ({
   imageName,
 }) => {
   return (
-    <div className="w-[350px] rounded-xl p-10 bg-white font-openSans">
-      <p className="text-2xl leading-9 text-black">{`"${reviewText}"`}</p>
+    <div className="w-[350px] rounded-xl p-5 lg:p-10 bg-white font-openSans">
+      <p className="text-lg lg:text-2xl leading-9 text-black">{`"${reviewText}"`}</p>
 
-      <div className="mt-10 flex items-center">
+      <div className="mt-5 lg:mt-10 flex items-center">
         <div className="rounded-full mr-4">
           <Image
             src={`/assets/landingPage/reviewers/${imageName}`}

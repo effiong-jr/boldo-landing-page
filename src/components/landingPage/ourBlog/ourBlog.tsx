@@ -30,7 +30,7 @@ const OurBlog: FC = () => {
       <div className="mt-[77px] sm:space-x-6 flex flex-wrap justify-center lg:justify-between">
         {displayBlogCards}
       </div>
-      <div className="mt-12 lg:mt-[100px] text-center">
+      <div className="mt-10 lg:mt-[100px] text-center">
         <Button className="text-dark-blue text-sm font-bold border-2 border-dark-blue rounded-[56px]">
           Load more
         </Button>

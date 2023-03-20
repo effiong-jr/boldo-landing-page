@@ -30,10 +30,43 @@ const HeroContent: FC = () => {
             <HeroImage1 />
           </div>
           <div className="flex justify-between">
-            {/* <div> */}
-            <HeroImage2 />
-            {/* <HeroImage2Graph /> */}
-            {/* </div> */}
+            <div className="relative">
+              <div className="absolute top-4 left-5">
+                <svg
+                  width="48"
+                  height="11"
+                  viewBox="0 0 48 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse
+                    cx="5.1133"
+                    cy="5.60049"
+                    rx="4.71999"
+                    ry="4.75784"
+                    fill="#FC5B00"
+                  />
+                  <ellipse
+                    cx="23.9933"
+                    cy="5.60049"
+                    rx="4.71999"
+                    ry="4.75784"
+                    fill="#ECAA00"
+                  />
+                  <ellipse
+                    cx="42.8732"
+                    cy="5.60049"
+                    rx="4.71999"
+                    ry="4.75784"
+                    fill="#009D10"
+                  />
+                </svg>
+              </div>
+              <HeroImage2 />
+              <div className="absolute top-9 flex justify-center items-center mx-auto w-full">
+                <HeroImage2Graph />
+              </div>
+            </div>
             <HeroImage3 />
           </div>
         </div>

@@ -162,16 +162,15 @@ const StartNow: FC = () => {
                       strokeLinejoin="round"
                     />
                   </g>
-                  <div>
-                    <clipPath id="clip0_62_539">
-                      <rect
-                        width="24"
-                        height="24"
-                        fill="white"
-                        transform="translate(1.77502 1.6543)"
-                      />
-                    </clipPath>
-                  </div>
+
+                  <clipPath id="clip0_62_539">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(1.77502 1.6543)"
+                    />
+                  </clipPath>
                 </svg>
               </span>
               <span>Advisor success customer launch party.</span>
@@ -251,11 +250,10 @@ const StartNow: FC = () => {
                       strokeLinejoin="round"
                     />
                   </g>
-                  <div>
-                    <clipPath id="clip0_62_578">
-                      <rect width="24" height="24" fill="white" />
-                    </clipPath>
-                  </div>
+
+                  <clipPath id="clip0_62_578">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
                 </svg>
               </span>
               <span>Business-to-consumer long tail.</span>

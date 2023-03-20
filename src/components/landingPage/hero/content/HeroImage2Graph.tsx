@@ -3,7 +3,7 @@ import { FC } from "react";
 const HeroImage2Graph: FC = () => {
   return (
     <>
-      {/* <svg
+      <svg
         width="141"
         height="107"
         viewBox="0 0 141 107"
@@ -72,7 +72,7 @@ const HeroImage2Graph: FC = () => {
           rx="4.65228"
           fill="#0DBBFC"
         />
-      </svg> */}
+      </svg>
     </>
   );
 };

@@ -60,7 +60,7 @@ const Navbar: FC = () => {
                 >
                   <path
                     d="M1920 1468.412v112.94H0v-112.94h1920Zm0-564.706v112.941H0V903.706h1920ZM1920 339v112.941H0V339h1920Z"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   />
                 </svg>
               </div>

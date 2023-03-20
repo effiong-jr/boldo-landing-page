@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import { FC } from "react";
 import HeroImage1 from "./HeroImage1";
 import HeroImage2 from "./HeroImage2";
+import HeroImage2Graph from "./HeroImage2Graph";
 import HeroImage3 from "./HeroImage3";
 
 const HeroContent: FC = () => {
@@ -29,7 +30,10 @@ const HeroContent: FC = () => {
             <HeroImage1 />
           </div>
           <div className="flex justify-between">
+            {/* <div> */}
             <HeroImage2 />
+            {/* <HeroImage2Graph /> */}
+            {/* </div> */}
             <HeroImage3 />
           </div>
         </div>

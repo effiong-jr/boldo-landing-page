@@ -162,7 +162,7 @@ const StartNow: FC = () => {
                       strokeLinejoin="round"
                     />
                   </g>
-                  <defs>
+                  <div>
                     <clipPath id="clip0_62_539">
                       <rect
                         width="24"
@@ -171,7 +171,7 @@ const StartNow: FC = () => {
                         transform="translate(1.77502 1.6543)"
                       />
                     </clipPath>
-                  </defs>
+                  </div>
                 </svg>
               </span>
               <span>Advisor success customer launch party.</span>

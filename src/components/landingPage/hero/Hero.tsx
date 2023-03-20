@@ -1,7 +1,7 @@
 import { FC } from "react";
 import HeroContent from "./content/HeroContent";
-import HeroImageFooterLogos from "./content/HeroImageFooterLogos";
 import Navbar from "../navbar/Navbar";
+import Footer from "./footer/Footer";
 
 const Hero: FC = () => {
   return (
@@ -22,9 +22,11 @@ const Hero: FC = () => {
         <Navbar />
         <HeroContent />
         <div className="mt-14 flex justify-center pt-8">
-          <div>
-            <HeroImageFooterLogos />
+          <div className="max-w-full">
+            <Footer />
           </div>
+
+          <div></div>
         </div>
       </div>
     </div>

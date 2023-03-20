@@ -89,7 +89,7 @@ const Navbar: FC = () => {
       <div
         className={clsx(
           isMenuOpen
-            ? "h-screen w-screen block  md:hidden float-left clear-both fixed top-0 left-0 "
+            ? "h-screen w-screen block  md:hidden float-left clear-both fixed top-0 left-0 z-50"
             : "h-0 w-0 overflow-hidden",
           "transition-all ease-in-out duration-500"
         )}
